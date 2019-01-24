@@ -7,16 +7,17 @@
 	</head>
 
 	<body>
-		<h1>About</h1>
+		<h1>About Page</h1>
 
 		<div>
-			This tutorial has been put together by ollie <br />
+			This tutorial has been put together by Oliver Gardner <br />
 			<strong>{{ boldmessage }}</strong><br />
 		</div>
 
 		<div>
 			<a href="/rango/">Home</a><br />
-			<img src="{% static "images/dog.jpg" %}" alt="Picture of Dog" />
+			<img src="{% static "images/rango2.jpg" %}" alt="Picture of Rango 2" />
+			<img src ="{{ MEDIA_URL }}cat.jpg" alt="Picture of Cat" />
 		</div>
 	</body>
 </html>
