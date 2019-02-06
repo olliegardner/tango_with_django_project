@@ -7,40 +7,6 @@ django.setup()
 from rango.models import Category, Page
 
 def populate():
-
-	'''
-	python_cat = add_cat('Python', 128, 64)
-
-	python_pages = [
-        {"title": "Official Python Tutorial",
-         "url":"http://docs.python.org/2/tutorial/"},
-        {"title":"How to Think like a Computer Scientist",
-         "url":"http://www.greenteapress.com/thinkpython/"},
-        {"title":"Learn Python in 10 Minutes",
-         "url":"http://www.korokithakis.net/tutorials/python/"} ]
-
-	django_cat = add_cat("Django", 64, 32)
-
-	django_pages = [
-        {"title":"Official Django Tutorial",
-         "url":"https://docs.djangoproject.com/en/1.9/intro/tutorial01/"},
-        {"title":"Django Rocks",
-         "url":"http://www.djangorocks.com/"},
-        {"title":"How to Tango with Django",
-         "url":"http://www.tangowithdjango.com/"} ]
-
-	frame_cat = add_cat("Other Frameworks", 32, 16)
-
-	other_pages = [
-        {"title":"Bottle",
-         "url":"http://bottlepy.org/docs/dev/"},
-        {"title":"Flask",
-         "url":"http://flask.pocoo.org"} ]
-
-	cats = {"Python": {"pages": python_pages},
-            "Django": {"pages": django_pages},
-            "Other Frameworks": {"pages": other_pages} }
-    '''
 	python_pages = [
     	{"title": "Official Python Tutorial", "url":"http://docs.python.org/2/tutorial/", "views": 32},
 		{"title":"How to Think like a Computer Scientist", "url":"http://www.greenteapress.com/thinkpython/", "views": 16},
